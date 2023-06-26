@@ -13,7 +13,11 @@ img{
   width: 100vh;
   border-radius: 50px;
 }
+h1{
 
+  border: 10px solid yellow;
+  border-radius: 50px;
+}
 h2{
   border: 3px solid yellow;
 }

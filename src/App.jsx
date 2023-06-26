@@ -1,6 +1,7 @@
 import SimpleList from "./components/SimpleListe";
 import PlayerCard from "./components/PlayerCard";
 import NbaTeams from "./components/NbaTeam";
+import AddTeam from "./components/AddTeam";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       </header>
       <SimpleList />
       <PlayerCard />
+      <AddTeam />
+      {/* AddNewTeam={AddNewTeam} */}
       <NbaTeams />
     </div>
   );

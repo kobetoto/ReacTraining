@@ -11,7 +11,9 @@ function NbaTeams() {
         <h4>
           {team.teamName} {team.abbreviation}
         </h4>
+
         <p>Location:{team.location}</p>
+
         <button
           onClick={function () {
             //1
