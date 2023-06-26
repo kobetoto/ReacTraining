@@ -4,6 +4,10 @@ import NbaTeams from "./components/NbaTeam";
 import AddTeam from "./components/AddTeam";
 
 function App() {
+  // [teams, setTeams]
+
+  // function addTeam
+
   return (
     <div>
       <header className="Header">
@@ -15,9 +19,9 @@ function App() {
       </header>
       <SimpleList />
       <PlayerCard />
-      <AddTeam />
+      <AddTeam addTeam={addTeam} />
       {/* AddNewTeam={AddNewTeam} */}
-      <NbaTeams />
+      <NbaTeams teams={teams} />
     </div>
   );
 }

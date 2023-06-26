@@ -2,8 +2,6 @@ import { useState } from "react";
 
 function AddTeam() {
   /* 
-
-
                  _             _                                                    _   
                 | |           | |                                                  | |  
   ___ ___  _ __ | |_ _ __ ___ | |   ___ ___  _ __ ___  _ __   ___  _ __   ___ _ __ | |_ 
@@ -12,8 +10,6 @@ function AddTeam() {
  \___\___/|_| |_|\__|_|  \___/|_|  \___\___/|_| |_| |_| .__/ \___/|_| |_|\___|_| |_|\__|
                                                       | |                               
                                                       |_|                               
-
-
 */
 
   const [name, setName] = useState("");
@@ -31,7 +27,7 @@ function AddTeam() {
         onSubmit={(event) => {
           event.preventDefault(); //1// empeche l'action par default de l'event Submit (rafraichissement de la page)
 
-                                                                                    /* A FAIRE DANS LE PARENTS LA OU IL Y A LA LISTE 
+          /* A FAIRE DANS LE PARENTS LA OU IL Y A LA LISTE 
                                                                                     //appelez la props issue du parent qui sera la fonction AddNewTeam qui prendra un objet : 
 
                                                                                                                                         function AddNewTeam(object){
